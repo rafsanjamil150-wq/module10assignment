@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/product_list_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ProductListScreen(),
+      home: const SplashScreen(),
     );
   }
 }
